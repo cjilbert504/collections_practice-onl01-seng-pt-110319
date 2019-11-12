@@ -36,6 +36,6 @@ end
 
 def sum_array(array)
   array.select do |element|
-    element + element
+    element
   end
 end

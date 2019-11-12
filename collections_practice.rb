@@ -44,7 +44,7 @@ end
 
 def add_s(array)
   array.collect do |element|
-    if element[1] == element
+    if array[1] == element
       element
     else
       element + "s"

@@ -23,9 +23,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  couter = 0
+  counter = 0
   array.each do |element|
     element[counter][2] = $
-    couter += 1
+    counter += 1
   end
 end

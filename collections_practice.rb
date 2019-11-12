@@ -39,4 +39,5 @@ def sum_array(array)
   array.select do |element|
     sum += element
   end
+  sum
 end
